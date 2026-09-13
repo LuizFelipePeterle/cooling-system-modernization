@@ -1,0 +1,8 @@
+requirement_id,target_kpi,acceptance_criterion,measured_result,status,evidence_source
+SYS-CAP-001,cooling_service_availability_pct,Cooling service availability >= 99.95%,99.9943078324226,PASS,python_kpi_crosscheck.csv
+SYS-RED-001,traceability coverage,Redundancy state and capacity margin available for each 15-minute performance interval,35136 / 35136 15-min intervals populated,PASS,cooling_capacity_state.csv
+SYS-MNT-001,pm_compliance_pct,PM compliance >= 95%,98.61111111111111,PASS,python_kpi_crosscheck.csv
+SYS-ENE-001,weighted_cop,Weighted COP >= 3.30,3.360726032157277,PASS,python_kpi_crosscheck.csv (paired observations)
+SYS-PUE-001,pue,PUE <= 1.50,1.4893530344481738,PASS,python_kpi_crosscheck.csv
+SYS-MON-001,monitoring_completeness_pct,Daily 1-minute sample completeness >= 95%,98.75,PASS,monitoring_completeness_daily.csv (minimum daily completeness)
+SYS-SEC-001,security_review,Architecture and access-control evidence accepted,Accepted simulated design review,PASS,engineering/security_architecture_review.md

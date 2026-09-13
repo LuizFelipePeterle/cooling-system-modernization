@@ -1,0 +1,120 @@
+{
+  "seed": 20260912,
+  "periods": {
+    "baseline": {
+      "start": "2026-01-01",
+      "end": "2026-12-31"
+    },
+    "post": {
+      "start": "2027-09-01",
+      "end": "2028-08-31"
+    }
+  },
+  "assets": {
+    "chillers": 3,
+    "pumps": 6,
+    "nominal_total_cooling_kw": 1200,
+    "chiller_capacity_kw": 400,
+    "design_redundancy": "N+1 at 800 kW critical cooling demand"
+  },
+  "load_model": {
+    "base": 0.72,
+    "seasonal_amplitude": 0.18,
+    "noise_sigma": 0.035,
+    "min": 0.45,
+    "max": 1.0
+  },
+  "failure_model": {
+    "baseline_annual_rate": 14.0,
+    "post_annual_rate": 6.0,
+    "high_load_multiplier": 1.7,
+    "downtime_lognormal_median_hours": {
+      "baseline": 7.2,
+      "post": 4.0
+    },
+    "downtime_sigma": 0.5
+  },
+  "excursion_model": {
+    "baseline_annual_rate": 41.0,
+    "post_annual_rate": 8.0,
+    "high_load_multiplier": 1.8
+  },
+  "cop_model": {
+    "baseline_mean": 2.82,
+    "post_mean": 3.37,
+    "baseline_sigma": 0.16,
+    "post_sigma": 0.14,
+    "load_penalty": 0.22,
+    "min": 2.0,
+    "max": 4.5
+  },
+  "pm_model": {
+    "monthly_orders_per_eligible_asset": 1,
+    "completion_probability": {
+      "baseline": 0.76,
+      "post": 0.97
+    }
+  },
+  "alarm_model": {
+    "baseline_monthly_mean": 63.0,
+    "post_monthly_mean": 17.0,
+    "overdispersion_k": 2.5
+  },
+  "imperfections": {
+    "sensor_missing_rate": 0.008,
+    "duplicate_rate": 0.004,
+    "timestamp_jitter_seconds": 20,
+    "outlier_rate": 0.003
+  },
+  "cost_model": {
+    "labor_eur_per_hour": 68.0,
+    "planned_service_contract_monthly_eur": 8500.0,
+    "baseline_energy_eur_per_kwh": 0.13,
+    "emergency_parts_markup": 1.35,
+    "parts_cost_lognormal_median_eur": {
+      "baseline": 1800.0,
+      "post": 1400.0
+    },
+    "parts_cost_lognormal_sigma": 0.55,
+    "emergency_procurement_probability": {
+      "baseline": 0.55,
+      "post": 0.3
+    },
+    "preventive_labor_hours_per_completed_order": 2.5
+  },
+  "scenario": {
+    "company": "NovaTech Data Centers (NDC)",
+    "facility": "NDC-01 Regional Colocation Data Center",
+    "enterprise_customers": 80,
+    "installed_racks": 420,
+    "occupied_racks": 350,
+    "critical_it_load_kw": 800,
+    "projected_it_capacity_kw": 1000,
+    "operating_model": "24x7x365"
+  },
+  "it_load_model": {
+    "base_kw": 650,
+    "seasonal_amplitude_kw": 90,
+    "daily_amplitude_kw": 55,
+    "noise_sigma_kw": 22,
+    "min_kw": 480,
+    "max_kw": 800
+  },
+  "thermal_model": {
+    "it_to_cooling_ratio": 1.0,
+    "other_heat_kw": 35,
+    "capacity_margin_kw": 25
+  },
+  "facility_energy_model": {
+    "other_facility_kw": 85,
+    "ups_loss_fraction": 0.045
+  },
+  "service_model": {
+    "critical_capacity_deficit_kw": 0,
+    "thermal_excursion_probability_per_deficit_interval": 0.08
+  },
+  "telemetry": {
+    "performance_interval_minutes": 15,
+    "monitoring_interval_minutes": 1
+  }
+}

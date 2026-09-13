@@ -1,0 +1,8 @@
+gate_id,gate_name,entry_criteria,exit_criteria,status
+G0,Business Case Approval,"Quantified problem; baseline measures; candidate solution classes","Selected solution class and authorized concept study",PASS
+G1,System Requirements Review (SRR),"Stakeholder needs; draft system requirements; measurement plan","Approved and traceable requirements baseline; V&V methods assigned",PASS
+G2,Preliminary Design Review (PDR),"Architecture; interface definitions; preliminary hazard/risk analysis","Architecture judged feasible; major interfaces allocated; residual risks acceptable",PASS
+G3,Critical Design Review (CDR),"Detailed design; procurement specifications; updated risk register","Design complete enough for implementation/procurement",PASS
+G4,Test Readiness Review (TRR),"Approved procedures; calibrated measurement chain; test configuration frozen","Evidence that test can be executed safely and validly",PASS
+G5,Operational Readiness Review (ORR),"Verified system; training complete; rollback/support plan ready","Authorization for operational validation",PASS
+G6,Closure & Transition,"Acceptance evidence; outstanding actions dispositioned; handover package complete","Formal transition; closure; benefits owner assigned",PASS

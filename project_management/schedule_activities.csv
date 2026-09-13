@@ -1,0 +1,13 @@
+activity_id,activity_name,duration_weeks,predecessor_id,baseline_start_week,baseline_finish_week,total_float_weeks,critical
+A,Baseline assessment,3,,1,3,0,true
+B,Stakeholder needs and requirements,3,A,4,6,0,true
+C,Architecture and preliminary design,3,B,7,9,0,true
+D,Detailed design,3,C,10,12,0,true
+E,VFD procurement,8,D,13,20,0,true
+F,Instrumentation procurement,6,D,13,18,2,false
+G,Controls and software development,8,C,10,17,3,false
+H,Electrical and mechanical installation,4,E;F,21,24,0,true
+I,Control and data integration,3,G;H,25,27,0,true
+J,Verification and commissioning,3,I,28,30,0,true
+K,Operational validation,2,J,31,32,0,true
+L,Transition and closure,1,K,32,32,0,true

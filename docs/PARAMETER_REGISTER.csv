@@ -1,0 +1,28 @@
+parameter_path,meaning,unit,baseline,post,shared_global,classification
+failure_model.baseline_annual_rate,Expected failure intensity,events/year,14.0,,,Scenario assumption
+failure_model.post_annual_rate,Expected failure intensity,events/year,,6.0,,Scenario assumption
+failure_model.downtime_lognormal_median_hours,Median failure downtime,h,7.2,4.0,,Scenario assumption
+failure_model.downtime_sigma,Lognormal dispersion for downtime,dimensionless,,,0.5,Model parameter
+failure_model.high_load_multiplier,Failure intensity sensitivity to high load,multiplier,,,1.7,Model parameter
+excursion_model.baseline_annual_rate,Expected temperature excursion intensity,events/year,41.0,,,Scenario assumption
+excursion_model.post_annual_rate,Expected temperature excursion intensity,events/year,,8.0,,Scenario assumption
+excursion_model.high_load_multiplier,Excursion intensity sensitivity to high load,multiplier,,,1.8,Model parameter
+cop_model.mean,Nominal COP mean,dimensionless,2.82,3.37,,Scenario assumption
+cop_model.sigma,COP stochastic dispersion,dimensionless,0.16,0.14,,Scenario assumption
+cop_model.load_penalty,COP sensitivity to load,multiplier,,,0.22,Model parameter
+pm_model.completion_probability,Probability that a planned PM order is completed,probability,0.76,0.97,,Scenario assumption
+alarm_model.monthly_mean,Mean alarm intensity,events/month,63.0,17.0,,Scenario assumption
+alarm_model.overdispersion_k,Gamma-Poisson overdispersion shape,dimensionless,,,2.5,Model parameter
+cost_model.parts_cost_lognormal_median_eur,Median failure-related parts cost,EUR,1800,1400,,Scenario assumption
+cost_model.parts_cost_lognormal_sigma,Lognormal dispersion for parts cost,dimensionless,,,0.55,Model parameter
+cost_model.emergency_procurement_probability,Probability of emergency procurement,probability,0.55,0.30,,Scenario assumption
+cost_model.emergency_parts_markup,Emergency parts markup,multiplier,,,1.35,Economic assumption
+cost_model.labor_eur_per_hour,Labor rate,EUR/h,,,68,Economic assumption
+cost_model.planned_service_contract_monthly_eur,Monthly service contract,EUR/month,,,8500,Economic assumption
+cost_model.baseline_energy_eur_per_kwh,Electricity tariff,EUR/kWh,,,0.13,Economic assumption
+cost_model.preventive_labor_hours_per_completed_order,Planned labor per completed PM order,h/order,,,2.5,Economic assumption
+imperfections.sensor_missing_rate,Missing telemetry rate,probability,,,0.008,Data-quality simulation parameter
+imperfections.duplicate_rate,Duplicate telemetry rate,probability,,,0.004,Data-quality simulation parameter
+imperfections.timestamp_jitter_seconds,Maximum timestamp jitter magnitude,s,,,20,Data-quality simulation parameter
+imperfections.outlier_rate,Plausible telemetry outlier rate,probability,,,0.003,Data-quality simulation parameter
+seed,Reference random seed,integer,,,20260912,Reproducibility control

@@ -1,0 +1,4 @@
+P50: 34.53 weeks
+P80: 35.83 weeks
+P90: 36.51 weeks
+Mean: 34.56 weeks

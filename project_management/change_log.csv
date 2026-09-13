@@ -1,0 +1,2 @@
+change_id,title,week,status,cost_impact_eur,schedule_impact_weeks,decision,verification_consequence
+CR-004,VFD delivery recovery strategy,17,Approved,7500,0,Use qualified temporary equivalent drives for commissioning and install final units during planned shutdown,Mandatory regression testing after final-drive installation

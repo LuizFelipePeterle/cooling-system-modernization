@@ -1,0 +1,6 @@
+risk_id,risk_statement,probability,impact,exposure,severity,trigger,response,owner,status
+R-01,Legacy PLC incompatibility may delay controls integration,3,5,15,High,Prototype communication fails or unsupported protocol identified,Prototype interface early and retain gateway fallback,Controls Engineer,Open
+R-02,VFD lead time may delay the critical procurement path,4,4,16,Critical,Supplier forecast exceeds baseline delivery date,Early procurement plus qualified equivalent-drive contingency,Procurement Lead,Triggered in simulated execution
+R-03,Required shutdown window may become unavailable,3,5,15,High,Operations withdraws planned outage window,Coordinate outage at G2/G3 and maintain resequencing plan,Project Manager,Open
+R-04,Sensor data quality may be insufficient for acceptance evidence,3,4,12,High,Calibration failure or data completeness below threshold,Calibration redundancy and data-quality gate,Instrumentation Engineer,Open
+R-05,COP target may not be achieved after initial tuning,3,4,12,High,Commissioning COP below acceptance band,Control retuning and root-cause analysis before acceptance,Energy Engineer,Open

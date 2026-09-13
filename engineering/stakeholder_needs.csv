@@ -1,0 +1,8 @@
+need_id,stakeholder,need_statement,rationale
+SN-OPS-001,Data Center Operations,Maintain sufficient cooling capacity for critical IT load throughout required operating periods,Cooling is mission enabling for continuous IT operation
+SN-OPS-002,Data Center Operations,Maintain visibility of cooling redundancy and thermal margin before conditions threaten IT operations,Operators need time to respond before service impact
+SN-MNT-001,Maintenance,Detect degradation early and restore failed cooling assets within defined maintainability limits,Reduce corrective exposure and degraded redundancy time
+SN-ENG-001,Facilities Engineering,Provide reliable operational data for performance degradation and energy analysis,Engineering decisions require traceable evidence
+SN-FIN-001,Finance,Demonstrate measurable lifecycle operating value from the selected modernization,Investment must have a transparent benefit case
+SN-SVC-001,Service Management,Avoid cooling-related conditions that materially affect contracted IT services,Protect customer service continuity
+SN-SEC-001,Cybersecurity,Maintain appropriate separation and least-privilege access across control supervisory and analytics functions,Modernization must not introduce unacceptable OT cyber exposure

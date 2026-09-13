@@ -1,0 +1,10 @@
+asset_code,asset_type,rated_capacity_kw,criticality
+CH-01,Chiller,400,HIGH
+CH-02,Chiller,400,HIGH
+CH-03,Chiller,400,HIGH
+P-01,Pump,75,MEDIUM
+P-02,Pump,75,MEDIUM
+P-03,Pump,75,MEDIUM
+P-04,Pump,75,MEDIUM
+P-05,Pump,75,MEDIUM
+P-06,Pump,75,MEDIUM
