@@ -16,7 +16,7 @@ Recommended imports:
 - `engineering/requirements_traceability.csv`
 
 ## Page 1 - Executive
-Cards: Availability, Downtime, MTBF, MTTR, COP, O&M Cost.
+Cards: Availability, Downtime, Outside N+1 state, Capacity deficit, COP, O&M Cost.
 Use Baseline/Post labels and target lines where requirements exist. Add a prominent SIMULATED CASE STUDY subtitle.
 
 ## Page 2 - Reliability & Maintenance

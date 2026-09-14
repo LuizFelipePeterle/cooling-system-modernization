@@ -15,8 +15,8 @@ Operational evidence is generated stochastically from externalized assumptions. 
 ### Current reference realization
 Availability: 98.9557% -> 99.6844%  
 Downtime: 91.48 h -> 27.72 h  
-MTBF: 722.38 h -> 2,189.07 h  
-Mean repair time: 5.68 h -> 4.53 h  
+Outside intended N+1 state: 66.75 h -> 15.25 h
+Capacity deficit: 4.75 h -> 0.50 h
 PM compliance: 77.78% -> 97.22%  
 Temperature excursions: 37 -> 5  
 O&M: EUR 425,432.79 -> EUR 357,924.84
