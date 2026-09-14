@@ -19,9 +19,9 @@ MTBF: 722.38 h -> 2,189.07 h
 Mean repair time: 5.68 h -> 4.53 h  
 PM compliance: 77.78% -> 97.22%  
 Temperature excursions: 37 -> 5  
-O&M: EUR 496,827.73 -> EUR 413,914.64
+O&M: EUR 425,432.79 -> EUR 357,924.84
 
-Annual O&M reduction: 16.69%. Simple payback on O&M savings only: 4.34 years.
+Annual O&M reduction: 15.87%. Simple payback on O&M savings only: 5.33 years.
 
 ### Project-control scenario
 At Week 20, PV=EUR210k, EV=EUR195k and AC=EUR205k (SPI 0.929; CPI 0.951). A simulated VFD procurement delay affects a zero-float critical-path activity. CR-004 evaluates recovery alternatives and adopts a qualified temporary-drive strategy with mandatory regression testing.

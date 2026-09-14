@@ -31,7 +31,7 @@ Explain stochastic failures/excursions, lognormal downtime, Gamma-Poisson alarms
 Explain requirement-specific acceptance criteria and the difference between verification and operational validation.
 
 ## 10. Evaluate benefits
-Use final SQL-validated values. Current Python reference: O&M EUR 496,827.73 -> EUR 413,914.64, 16.69% reduction, 4.34-year simple payback.
+Use final SQL-validated values. Current Python reference: O&M EUR 425,432.79 -> EUR 357,924.84, 15.87% reduction, 5.33-year simple payback.
 
 ## 11. What changed during development
 Describe v1 -> v5 integrity corrections and why less attractive but emergent economics are more credible.

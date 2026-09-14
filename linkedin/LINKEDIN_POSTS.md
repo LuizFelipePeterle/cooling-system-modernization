@@ -111,11 +111,11 @@ For the current reproducible reference realization of my simulated case:
 - Mean repair time: 5.68 h -> 4.53 h
 - PM compliance: 77.78% -> 97.22%
 - Temperature excursions: 37 -> 5
-- O&M cost: EUR 496,827.73 -> EUR 413,914.64
+- O&M cost: EUR 425,432.79 -> EUR 357,924.84
 
 These values are not manually inserted into the generator. They emerge from a fixed, reproducible stochastic scenario and are calculated downstream.
 
-The resulting simulated O&M reduction is 16.69%, with a simple payback of 4.34 years using O&M savings only.
+The resulting simulated O&M reduction is 15.87%, with a simple payback of 5.33 years using O&M savings only.
 
 Measurements should exist because they support decisions - not because dashboards need more metrics.
 
