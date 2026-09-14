@@ -78,4 +78,4 @@ Expected Python gate: data generation, validation, regenerated KPI evidence, the
 For the final release gate, run `./scripts/run_full_validation.sh` in an environment with PostgreSQL/psql available. The PostgreSQL layer reloads operational evidence plus the integrated PM+SE model and compares SQL KPIs with freshly regenerated Python KPIs. Publish v1.0 only after the full E2E crosscheck passes.
 
 ## 11. Current release status
-**v6.1 Engineering Evidence Integrity Release Candidate.** The Python pipeline passes the complete test suite and regenerates derived evidence from current raw data. PostgreSQL E2E validation remains the final gate before a validated public v1.0 tag.
+**v1.0.0 - E2E Validated.** The Python and PostgreSQL implementations independently calculate the same KPIs, with the formal Python-to-SQL crosscheck passing 22/22 metric-period comparisons within floating-point tolerance.
