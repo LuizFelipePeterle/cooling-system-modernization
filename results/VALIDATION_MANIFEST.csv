@@ -1,14 +1,14 @@
 artifact,sha256,generated_at_utc,status
-data/generated/performance_telemetry_raw.csv,6363200ca8b5fea0c4ac424d8fec8e7e98da282ab065f0bcbe1e7dc3201b1ea7,2026-09-13T13:13:45.004126+00:00,PRESENT
-data/generated/cooling_capacity_state.csv,56a4b0a6165953a63de96cf1655076271b6627a17ef61feca4e377dd1010b75f,2026-09-13T13:13:45.004126+00:00,PRESENT
-data/generated/failures.csv,eefd6094adb34f3ebc9f4ea5d5f3252eef509eac8b0842a6a4b9114eccf0a834,2026-09-13T13:13:45.004126+00:00,PRESENT
-data/generated/maintenance_orders.csv,c571a189525a0c9b5f46fc01b3da884cfd99eb5173d1ee1392921fe6aa19b4fa,2026-09-13T13:13:45.004126+00:00,PRESENT
-data/generated/om_costs.csv,5006d75e3757591a64efd0c5b683b34d3fd73c510292f2bcd565e0579974d4f2,2026-09-13T13:13:45.004126+00:00,PRESENT
-data/generated/monitoring_completeness_daily.csv,a69abb4e9f03fd84c82258f90a285dab743b98d33ba555017bb90eaa19e2d9b3,2026-09-13T13:13:45.004126+00:00,PRESENT
-data/generated/python_kpi_crosscheck.csv,739099b81600f1340f5390d1499ddc8551686f2b9be3720e57e59f34d633425a,2026-09-13T13:13:45.004126+00:00,PRESENT
-results/verification_results.csv,722ca0282e369750d82ed612893f1e6a89282fc3c2605a644aee70a5bf962d01,2026-09-13T13:13:45.004126+00:00,PRESENT
-results/benefit_realization.csv,63ce0bd9f72ef327fcd4b5e568c5f89c2c23182675cb777f7b96b13d08fe554b,2026-09-13T13:13:45.004126+00:00,PRESENT
-results/monte_carlo_schedule.txt,f3ef72e64eaf4790bf6930aac7c268fc78f18d49b4961206355c088ffea6dfcb,2026-09-13T13:13:45.004126+00:00,PRESENT
-results/sql_kpi_crosscheck.csv,,2026-09-13T13:13:45.004126+00:00,NOT GENERATED IN THIS ENVIRONMENT
-results/e2e_crosscheck_report.csv,,2026-09-13T13:13:45.004126+00:00,NOT GENERATED IN THIS ENVIRONMENT
-results/sql_requirement_verification.csv,,2026-09-13T13:13:45.004126+00:00,NOT GENERATED IN THIS ENVIRONMENT
+data/generated/performance_telemetry_raw.csv,6363200ca8b5fea0c4ac424d8fec8e7e98da282ab065f0bcbe1e7dc3201b1ea7,2026-09-13T20:06:32.401987+00:00,PRESENT
+data/generated/cooling_capacity_state.csv,56a4b0a6165953a63de96cf1655076271b6627a17ef61feca4e377dd1010b75f,2026-09-13T20:06:32.401987+00:00,PRESENT
+data/generated/failures.csv,eefd6094adb34f3ebc9f4ea5d5f3252eef509eac8b0842a6a4b9114eccf0a834,2026-09-13T20:06:32.401987+00:00,PRESENT
+data/generated/maintenance_orders.csv,c571a189525a0c9b5f46fc01b3da884cfd99eb5173d1ee1392921fe6aa19b4fa,2026-09-13T20:06:32.401987+00:00,PRESENT
+data/generated/om_costs.csv,5006d75e3757591a64efd0c5b683b34d3fd73c510292f2bcd565e0579974d4f2,2026-09-13T20:06:32.401987+00:00,PRESENT
+data/generated/monitoring_completeness_daily.csv,a69abb4e9f03fd84c82258f90a285dab743b98d33ba555017bb90eaa19e2d9b3,2026-09-13T20:06:32.401987+00:00,PRESENT
+data/generated/python_kpi_crosscheck.csv,739099b81600f1340f5390d1499ddc8551686f2b9be3720e57e59f34d633425a,2026-09-13T20:06:32.401987+00:00,PRESENT
+results/verification_results.csv,722ca0282e369750d82ed612893f1e6a89282fc3c2605a644aee70a5bf962d01,2026-09-13T20:06:32.401987+00:00,PRESENT
+results/benefit_realization.csv,63ce0bd9f72ef327fcd4b5e568c5f89c2c23182675cb777f7b96b13d08fe554b,2026-09-13T20:06:32.401987+00:00,PRESENT
+results/monte_carlo_schedule.txt,f3ef72e64eaf4790bf6930aac7c268fc78f18d49b4961206355c088ffea6dfcb,2026-09-13T20:06:32.401987+00:00,PRESENT
+results/sql_kpi_crosscheck.csv,fa180f127c122262c8d0bc5f4302abd5454e51e26cffc7501086744394a8d5e0,2026-09-13T20:06:32.401987+00:00,PRESENT
+results/e2e_crosscheck_report.csv,6623ab3ffc6150fc2501312df9252d37f12cc32638207dff97533f72644305f7,2026-09-13T20:06:32.401987+00:00,PRESENT
+results/sql_requirement_verification.csv,c84119e2c03a40450053ed2f7b946e59e61e802e28b711369c38b5a05feba158,2026-09-13T20:06:32.401987+00:00,PRESENT
